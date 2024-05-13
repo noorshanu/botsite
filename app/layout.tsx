@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SolTools | Solana Bot",
-  description: "The Most Advanced Crypto Bot on Solana Bringing Sniping, Tracking, Trading, Perpetual and More",
+  description: "The Most advanced crypto Bots on solana bringing sniping , Token creation , add Liquidity , snipe on first transaction , Trading and More .",
 };
 
 export default function RootLayout({
@@ -27,6 +27,9 @@ export default function RootLayout({
   )
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" href="fav.png" sizes="any" />
+      </head>
       <body className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden `}>
         <CrispWithNoSSR/>
         <StarsCanvas/>
