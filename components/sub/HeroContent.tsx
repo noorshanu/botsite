@@ -60,8 +60,8 @@ function HeroContent() {
         <Image
           src="/botsol.png"
           alt="Work Icon"
-          height={650}
-          width={650}
+          height={750}
+          width={750}
         ></Image>
       </motion.div>
     </motion.div>
