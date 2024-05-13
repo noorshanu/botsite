@@ -4,6 +4,7 @@ import "./globals.css";
 import StarsCanvas from "@/components/main/StarBg";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
+import dynamic from 'next/dynamic'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,16 +17,26 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>)
+
+
+{
+
+  const CrispWithNoSSR = dynamic(
+    () => import('./crisp')
+  )
   return (
     <html lang="en">
       <body className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden `}>
+        <CrispWithNoSSR/>
         <StarsCanvas/>
+        
         <Navbar/>
         {children}
         
         <Footer/>
         </body>
+       
     </html>
   );
 }
