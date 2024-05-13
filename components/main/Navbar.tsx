@@ -13,13 +13,13 @@ function Navbar() {
           height={70}
           className=' cursor-pointer hover:animate-slowspin' /> */}
           <span className='font-bold ml-[10px] hidden md:block text-gray-300'>
-            BotSol
+           SolTools 
           </span>
         </a>
         <div className=' w-[500px] h-full flex flex-row items-center justify-center md:mr-20'>
           <div className=' flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] gap-5 mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200' >
             <a href="/" className=' cursor-pointer'> Home</a>
-            <a href="#skill" className=' cursor-pointer'> Telegram</a>
+            <a href="https://t.me/solscript" className=' cursor-pointer'> Telegram</a>
             <a href="#projects" className=' cursor-pointer'> Products</a>
           </div>
 

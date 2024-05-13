@@ -9,7 +9,7 @@ import dynamic from 'next/dynamic'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Solana Bot",
+  title: "SolTools | Solana Bot",
   description: "The Most Advanced Crypto Bot on Solana Bringing Sniping, Tracking, Trading, Perpetual and More",
 };
 
