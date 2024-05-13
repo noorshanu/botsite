@@ -19,12 +19,12 @@ const Projects = () => {
         <ProjectCard
           src="/CardImage.png"
           title="Multi wallet volume generator"
-          description="our cutting-edge Multi wallet Volume Generator! This powerful tool is designed to simulate market conditions by using multiple wallets to generate random trading volume."
+          description="Our multi wallet Volume Generator! This powerful tool is designed to simulate market conditions by using multiple wallets to generate random trading volume."
         />
         <ProjectCard
           src="/SpaceWebsite.png"
           title="Pump.fun booster volume"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Our Bot  generates random trading volume, ensuring an exhilarating and immersive experience for traders. Get ready to amplify your trading potential like never before!"
         />
       </div>
 
@@ -34,17 +34,19 @@ const Projects = () => {
         <ProjectCard
           src="/NextWebsite.png"
           title="Jito bundle multi wallet bundle"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Create token  + Add Liquidity: The program allows you to enter desired amount of base tokens(COIN) and quote tokens(SOL), upon which it will create the liquidity pool.
+          this uses JITO Bundles to add liquidity to your token and makes the first swap (first txn)."
         />
         <ProjectCard
           src="/CardImage.png"
           title="⁠jito freez bundle"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Create token  + Add Liquidity: The program allows you to enter desired amount of base tokens(COIN) and quote tokens(SOL), upon which it will create the liquidity pool.
+          this uses JITO Bundles to add liquidity to your token and makes the first swap (first txn). you can also freeze tnx "
         />
         <ProjectCard
           src="/SpaceWebsite.png"
           title="AirDrop Bundler"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Simplify your token distribution process with AirDrop Bundler! Our platform empowers you to seamlessly airdrop your tokens to multiple wallets with ease and efficiency. Say goodbye to manual distribution hassles and embrace a streamlined approach to reaching your audience."
         />
       </div>
     </div>
