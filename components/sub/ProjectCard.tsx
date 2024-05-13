@@ -24,7 +24,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
       </div>
       <div className=" flex justify-center items-center my-2">
 
-        <a href="/" className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] px-4 cursor-pointer"> Contact Us</a>
+        <a href="https://t.me/solmerd" target="_blank" className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] px-4 cursor-pointer"> Contact Us</a>
 
       </div>
     </div>
