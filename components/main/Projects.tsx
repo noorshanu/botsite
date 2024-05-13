@@ -14,12 +14,12 @@ const Projects = () => {
         <ProjectCard
           src="/NextWebsite.png"
           title="Random volume and MC generator"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="our cutting-edge Random Volume and Market Cap Generator! This powerful tool is designed to simulate market conditions by using multiple wallets to generate random trading volumes and market capitalizations."
         />
         <ProjectCard
           src="/CardImage.png"
           title="Multi wallet volume generator"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="our cutting-edge Multi wallet Volume Generator! This powerful tool is designed to simulate market conditions by using multiple wallets to generate random trading volume."
         />
         <ProjectCard
           src="/SpaceWebsite.png"
