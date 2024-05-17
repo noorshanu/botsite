@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SolTools | Solana Bot",
-  description: "The Most advanced crypto Bots on solana bringing sniping , Token creation , add Liquidity , snipe on first transaction , Trading and More .",
+  description: "Fastest script for solana to deploy & snipe from 27 different wallets in ms from launch using JITO and on-chain program",
 };
 
 export default function RootLayout({
