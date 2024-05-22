@@ -1,3 +1,4 @@
+import CtaSec from "@/components/main/CtaSec";
 import Encryption from "@/components/main/Encryption";
 import Footer from "@/components/main/Footer";
 import Hero from "@/components/main/Hero";
@@ -13,7 +14,12 @@ export default function Home() {
       {/* <Skills/>
       <Encryption/> */}
       <Projects/>
-    
+    <CtaSec/>
+
+
+    <div>
+      
+    </div>
     </div>
     
    </main>
