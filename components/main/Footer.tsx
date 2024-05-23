@@ -26,7 +26,7 @@ const Footer = () => {
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
                   
-                    <a href="/https://t.me/solmerd" target="_blank" className="flex flex-row items-center my-[15px] cursor-pointer">
+                    <a href="https://t.me/solmerd" target="_blank" className="flex flex-row items-center my-[15px] cursor-pointer">
                     <FaTelegram />
                         <span className="text-[15px] ml-[6px]">Telegram</span>    
                     </a>
